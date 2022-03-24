@@ -1,0 +1,35 @@
+:root{
+    --poster-border: 1px solid #000000;
+    --poster-border-radius: 0.75rem
+}
+
+@font-face {
+    font-family: western;
+    src: local('Western Font'), url(QuentinCaps.ttf)
+  }
+body{
+    text-align: center;
+    align-items: center;
+    border: var(--poster-border);
+    border-radius: var(--poster-border-radius);
+    width: 35vw;
+    height: 90vh;
+    
+}
+h1, h2, p, li{
+    font-family: western;
+    font-weight: lighter;
+}
+h1{
+    font-size: 50px;
+    color: red;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    font-size: 10px;
+}
+img{
+    border-radius: var(--poster-border-radius);
+}
