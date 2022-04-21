@@ -1,0 +1,11 @@
+main{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.container .row{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    background-color: aqua;
+}
