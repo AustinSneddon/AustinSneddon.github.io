@@ -1,0 +1,15 @@
+.container{
+    padding-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel-item{
+    height: 500px;
+  }
+.carousel-item img{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    bottom: -250px;
+  }
